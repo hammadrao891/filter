@@ -167,8 +167,10 @@ const filteredData = data.filter((row) => {
     const searchTermLower = searchTerm.toLowerCase();
     if (
       !(
-        (row["CAS Number"] && row["CAS Number"].toLowerCase().includes(searchTermLower)) 
-        // (row["Product Name"] && row["Product Name"].toLowerCase().includes(searchTermLower))
+        (row["Market Segments"] && row["Market Segments"].toLowerCase().includes(searchTermLower)) ||
+        (row["CAS Number"] && row["CAS Number"].toLowerCase().includes(searchTermLower)) ||
+        (row["Product Name"] && row["Product Name"].toLowerCase().includes(searchTermLower)) ||
+        (row["Supplier"] && row["Supplier"].toLowerCase().includes(searchTermLower)) 
       )
     ) {
       return false;
