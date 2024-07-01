@@ -1,1 +1,0 @@
-"use strict";(self.webpackChunkproject=self.webpackChunkproject||[]).push([["sustainability"],{538:()=>{}},s=>{s.O(0,["vendors/gsap-core","vendors/CSSPlugin"],(()=>(538,s(s.s=538)))),s.O()}]);

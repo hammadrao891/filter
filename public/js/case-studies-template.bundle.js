@@ -1,1 +1,0 @@
-"use strict";(self.webpackChunkproject=self.webpackChunkproject||[]).push([["case-studies-template"],{49:()=>{document.addEventListener("DOMContentLoaded",(()=>{}))}},e=>{e.O(0,["vendors/gsap-core","vendors/CSSPlugin"],(()=>(49,e(e.s=49)))),e.O()}]);
